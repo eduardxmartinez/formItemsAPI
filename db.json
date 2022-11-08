@@ -35,5 +35,16 @@
         {
             "name":"other"
         }
+    ],
+    "gender": [
+        {
+            "name":"male"
+        },
+        {
+            "name":"female"
+        },
+        {
+            "name":"other"
+        }
     ]
 }

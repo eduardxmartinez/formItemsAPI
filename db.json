@@ -1,9 +1,39 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "fields": [
+        {
+            "component": "text",
+            "label": "First Name",
+            "type": "text",
+            "_uid": 1
+        },
+        {
+            "component": "text",
+            "label": "Last Name",
+            "type": "text",
+            "_uid": 2
+        },
+        {
+            "component": "option",
+            "label": "Gender",
+            "type": "radio",
+            "_uid": 3
+        },
+        {
+            "component": "select",
+            "label": "Country",
+            "type": "select",
+            "_uid": 4
+        }
+    ],
+    "gender": [
+        {
+            "name":"male"
+        },
+        {
+            "name":"female"
+        },
+        {
+            "name":"other"
+        }
+    ]
 }

@@ -37,9 +37,7 @@
         }
     ],
     "countries": [
-        {   
-            "name":"mexico"
-        }
+        {   "name":"mexico" }
     ]
 
 }
